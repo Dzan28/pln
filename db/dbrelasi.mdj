@@ -1,0 +1,284 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAGEs/JDkWppf/c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model1",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAGEs/JDkWpq1pQ=",
+					"_parent": {
+						"$ref": "AAAAAAGEs/JDkWppf/c="
+					},
+					"name": "ERDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGEs/JQNmpwocY=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JDkWpq1pQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEs/JQNmpxt3M=",
+									"_parent": {
+										"$ref": "AAAAAAGEs/JQNmpwocY="
+									},
+									"font": "Arial;13;1",
+									"left": 192,
+									"top": 261,
+									"width": 205.6015625,
+									"height": 13,
+									"text": "tagihan"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGEs/JQN2py5y0=",
+									"_parent": {
+										"$ref": "AAAAAAGEs/JQNmpwocY="
+									},
+									"model": {
+										"$ref": "AAAAAAGEs/JQNWpuUSY="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/JyrGp+NJM=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/JynGp7GfE="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 284,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/YF4GqH/b8=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/YF1GqEXGA="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 299,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/deKWqO/Wk=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/deHGqLb8w="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 314,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/e9+GqWYZg=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/e96WqTCiA="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 329,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/iO7GqdLoE=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/iO32qaCkk="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 344,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/j+pWqlPmg=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/j+mWqi6oY="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 359,
+											"width": 195.6015625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEs/lXR2qt13E=",
+											"_parent": {
+												"$ref": "AAAAAAGEs/JQN2py5y0="
+											},
+											"model": {
+												"$ref": "AAAAAAGEs/lXPGqqYRo="
+											},
+											"font": "Arial;13;0",
+											"left": 197,
+											"top": 374,
+											"width": 195.6015625,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 192,
+									"top": 279,
+									"width": 205.6015625,
+									"height": 113
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 192,
+							"top": 256,
+							"width": 205.6015625,
+							"height": 136,
+							"nameLabel": {
+								"$ref": "AAAAAAGEs/JQNmpxt3M="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGEs/JQN2py5y0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGEs/JQNWpuUSY=",
+					"_parent": {
+						"$ref": "AAAAAAGEs/JDkWppf/c="
+					},
+					"name": "tagihan",
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/JynGp7GfE=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "id_tagihan",
+							"type": "int",
+							"length": "11"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/YF1GqEXGA=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "id_penggunaan",
+							"type": "int",
+							"length": "11"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/deHGqLb8w=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "id_pelanggan",
+							"type": "int",
+							"length": "11"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/e96WqTCiA=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "id_denda",
+							"type": "int",
+							"length": "11"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/iO32qaCkk=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "tgl_tagihan",
+							"type": "date",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/j+mWqi6oY=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "jml_daya_terpakai",
+							"type": "int",
+							"length": "11"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEs/lXPGqqYRo=",
+							"_parent": {
+								"$ref": "AAAAAAGEs/JQNWpuUSY="
+							},
+							"name": "status",
+							"type": "varchar",
+							"length": "6"
+						}
+					]
+				}
+			]
+		}
+	]
+}

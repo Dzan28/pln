@@ -1,0 +1,7 @@
+<?php
+                                 include 'koneksi.php';
+                                 $query = mysqli_query($koneksi, "SELECT * FROM  type_user WHERE nama IN ('Admin','Teknisi')");
+                                 while($data = mysqli_fetch_array($query)){
+                                    echo "<option value=$data[type_user]> $data[nama] </option>";
+                                 }
+                                 ?>
